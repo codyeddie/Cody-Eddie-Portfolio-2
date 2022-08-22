@@ -10,7 +10,3 @@ This is a personal portfolio I have created for myself using React App.
 
 ## Contribution 
 I referenced material from previous projects and class work to complete this app.
-
-
-
-
