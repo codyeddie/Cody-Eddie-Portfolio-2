@@ -14,20 +14,22 @@ function Projects() {
 
   return (
     <section>
-      <h1 className='proHeader'>Projects:</h1>
+      <div className='projectsHeader'>
+        <h1>Projects:</h1> 
+      </div>
 
       <div id='projects'>
-        <div className='card'>
+        <div>
           <h3>{project1}</h3>
           <img src={Jacket} alt=''></img>
-        </div> 
+        </div>
 
-        <div className='card'>
+        <div>
           <h3>{project2}</h3>
           <img src={Scrunchies} alt=''></img>
         </div>
 
-        <div className='card'>
+        <div>
           <h3>{project3}</h3>
           <img src={Watch} alt=''></img>
         </div>
