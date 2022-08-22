@@ -28,19 +28,23 @@ li a {
   flex-wrap: wrap;
   padding: 20px;
   justify-content: space-evenly;
-  background-color: black;
+  background-color: var(--primary-text-color);
+}
+
+nav button .buttons {
+  background-color: var(--secondary-text-color);
 }
 
 #navbar {
  position: sticky;
  top: 0;
  height: 50px;
- background-color: rgb(40, 135, 40);
+ background-color: var(--primary-text-color);
 }
 
 nav {
   text-align: center;
-  background-color: #1b1c1e;
+  background-color: var(--secondary-text-color);
 
 }
 
@@ -48,9 +52,8 @@ nav a:hover {
   text-decoration: none;
 }
 
-nav  li {
+nav li {
   cursor: pointer;
-  
 }
 
 /* About Section */
@@ -170,4 +173,24 @@ nav  li {
 
 .contact a:hover {
   font-size: 26px;
+}
+
+.proHeader {
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 40px;
+  font-size: 55px;
+
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#projects img {
+  border: 3px solid #1b1c1e;
+  color: #1b1c1e;
 }
