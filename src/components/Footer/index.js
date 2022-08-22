@@ -4,20 +4,25 @@ import '../../index.css'
 // import styled from 'styled-components';
 
 function Footer() {
-    
+
   return (
     <footer>
-    
-      <div>
-      <a href="https://github.com/codyeddie/">GitHub</a>
-
-      <a href="https://www.linkedin.com/in/cody-eddie-a22a4a178/">LinkedIn</a>
-
-      </div>
-      
-      <div className='endFt' >
-        <p>Portfolio by Cody Eddie</p>
-      </div>
+      <section id="Contact-Me" class="contact">
+        <h2>Contact Me</h2>
+        <div>
+          <ul>
+            <li>
+              <a href="mailto: eddie_cody@yahoo.com">eddie_cody@yahoo.com</a>
+            </li>
+            <li>
+              <a href="https://github.com/codyeddie">Github</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/cody-eddie-a22a4a178">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </footer>
   )
 }

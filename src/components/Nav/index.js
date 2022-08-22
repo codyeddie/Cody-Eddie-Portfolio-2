@@ -9,11 +9,11 @@ function Nav(props) {
       <nav id='navbar'>
         <div className='buttons'>
           <Button
-            color="info"
+            color="success"
             outline
             onClick={() => props.setCurrentPage(0)}>About Me</Button>
           <Button
-            color="info"
+            color="success"
             outline
             onClick={() => props.setCurrentPage(2)}>My Projects</Button>
         </div>
